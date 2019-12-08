@@ -17,6 +17,8 @@ services:
     gen:
         image: ostwilkens/gridsome:latest
         network_mode: bridge
+        links:
+            - api
         # build:
         #     context: ./gen
         #     dockerfile: Dockerfile

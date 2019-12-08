@@ -6,5 +6,14 @@
 
 module.exports = {
   siteName: 'Gridsome',
-  plugins: []
+  plugins: [
+    {
+      use: 'gridsome-source-strapi',
+      options: {
+        apiURL: 'http://api:1337',
+        contentTypes: ['blogpost'],
+        plural: true,
+      }
+    }
+  ]
 }
