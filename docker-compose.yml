@@ -14,7 +14,7 @@ services:
             - /srv/app/node_modules/
             - /srv/app/.cache/
         environment:
-            VIRTUAL_HOST: fulstack.dev.kodkvarnen.se
+            VIRTUAL_HOST: fulstack-api.dev.kodkvarnen.se
             VIRTUAL_PORT: 1337
         command: bash -c "npm install && strapi develop"
     gen:
@@ -29,6 +29,6 @@ services:
             - ./gen:/srv/app
             - /srv/app/node_modules/
         environment:
-            VIRTUAL_HOST: fulstack.dev.kodkvarnen.se
+            VIRTUAL_HOST: fulstack-gen.dev.kodkvarnen.se
             VIRTUAL_PORT: 8080
         command: bash -c "npm install && gridsome develop"
