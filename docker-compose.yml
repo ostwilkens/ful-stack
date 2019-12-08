@@ -5,30 +5,24 @@ services:
         image: ostwilkens/strapi:latest
         network_mode: bridge
         # build:
-        #     context: .
+        #     context: ./api
         #     dockerfile: Dockerfile
-        ports: 
-            - 1337:1337
         volumes:
             - ./api:/srv/app
             - /srv/app/node_modules/
             - /srv/app/.cache/
+        command: bash -c "yarn && strapi develop"
         environment:
             VIRTUAL_HOST: fulstack-api.dev.kodkvarnen.se
-            VIRTUAL_PORT: 1337
-        command: bash -c "npm install && strapi develop"
     gen:
         image: ostwilkens/gridsome:latest
         network_mode: bridge
         # build:
         #     context: ./gen
         #     dockerfile: Dockerfile
-        ports:
-            - 8080:8080
         volumes:
             - ./gen:/srv/app
             - /srv/app/node_modules/
+        command: bash -c "yarn && gridsome develop"
         environment:
             VIRTUAL_HOST: fulstack-gen.dev.kodkvarnen.se
-            VIRTUAL_PORT: 8080
-        command: bash -c "npm install && gridsome develop"
