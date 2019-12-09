@@ -6,21 +6,16 @@
 
 module.exports = {
   siteName: 'ful-stack',
-  templates: {
-    Blogpost: [
-      {
-        path: '/blog/:title',
-        component: './src/templates/Blogpost.vue'
-      }
-    ]
-  },
+  // templates: {
+  //   Blogpost: '/blog/:title'
+  // },
   plugins: [
     {
-      use: 'gridsome-source-strapi',
+      use: '@gridsome/source-strapi',
       options: {
         apiURL: 'http://api:1337',
         contentTypes: ['blogpost'],
-        plural: true,
+        // plural: true,
       }
     },
     {

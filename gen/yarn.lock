@@ -705,6 +705,15 @@
     sort-package-json "^1.15.0"
     update-notifier "^3.0.1"
 
+"@gridsome/source-strapi@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@gridsome/source-strapi/-/source-strapi-0.1.0.tgz#93d28ac9726213b0003fa05abde24f14f15def14"
+  integrity sha512-ZoagoCWw9SaKWM3Mn4f/BZbSr3B4uLKMYLSRHrznEa/z/RTMWgjhiQw8l27C9qO3xQZiCDabIzLXqD4hBjt+ag==
+  dependencies:
+    axios "^0.19.0"
+    lodash "^4.17.11"
+    pluralize "^7.0.0"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -1402,10 +1411,10 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.9.0.tgz#24390e6ad61386b0a747265754d2a17219de862c"
   integrity sha512-Uvq6hVe90D0B2WEnUqtdgY1bATGz3mw33nH9Y+dmA+w5DHvUmBgkr5rM/KCHpCsiFNRUfokW/szpPPgMK2hm4A==
 
-axios@^0.18.0:
-  version "0.18.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.18.1.tgz#ff3f0de2e7b5d180e757ad98000f1081b87bcea3"
-  integrity sha512-0BfJq4NSfQXd+SkFdrvFbG7addhYSBA2mQwISr46pD6E5iqkWg02RAs8vyTT/j0RTnoYmeXauBuSv1qKwR179g==
+axios@^0.19.0:
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.0.tgz#8e09bff3d9122e133f7b8101c8fbdd00ed3d2ab8"
+  integrity sha512-1uvKqKQta3KBxIz14F2v06AEHZ/dIoeKfbTRkK1E5oqjDnuEerLmYTgJB5AiQZHJcljpg1TuRzdjDR06qNk0DQ==
   dependencies:
     follow-redirects "1.5.10"
     is-buffer "^2.0.2"
@@ -3946,15 +3955,6 @@ gridsome-plugin-tailwindcss@^2.2.27:
     postcss-import "^12.0.1"
     postcss-preset-env "^6.7.0"
     tailwindcss "^1.2.0-canary.1"
-
-gridsome-source-strapi@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/gridsome-source-strapi/-/gridsome-source-strapi-0.1.3.tgz#fbcb0e0673c9ef17157236f9dabef8f1c2d6ca60"
-  integrity sha512-+8fotJbB8mTwuWtSUHmYSXyuFeodP52u4C3fAjnHB6zN1YL+437YQ0N++dmGfdlqICPImhEoOFtZCMDW5PxX/Q==
-  dependencies:
-    axios "^0.18.0"
-    lodash "^4.17.11"
-    pluralize "^7.0.0"
 
 "gridsome@git://github.com/ostwilkens/gridsome.git#gridsome-v0.7.11-gitpkg":
   version "0.7.11"
