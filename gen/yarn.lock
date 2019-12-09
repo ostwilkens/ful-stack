@@ -3761,10 +3761,9 @@ gridsome-source-strapi@^0.1.3:
     lodash "^4.17.11"
     pluralize "^7.0.0"
 
-gridsome@^0.7.0:
+"gridsome@git://github.com/ostwilkens/gridsome.git#gridsome-v0.7.11-gitpkg":
   version "0.7.11"
-  resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.7.11.tgz#3bc1fca4418725b25fd7d856f758cd0a8b107a9e"
-  integrity sha512-fZfFDD77mZqmwsTJhweh/Lb7Ns0LlzPdJ3lKjLg+i09tDyvGoH/i5hRWgxRYOAfE2lrSON0gNfeavX/rxTVCIw==
+  resolved "git://github.com/ostwilkens/gridsome.git#d2cf52229a08757542e9a60fae81ee523b44fd33"
   dependencies:
     "@babel/code-frame" "^7.5.5"
     "@babel/core" "^7.0.0"

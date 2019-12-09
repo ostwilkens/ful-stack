@@ -15,5 +15,12 @@ module.exports = {
         plural: true,
       }
     }
-  ]
+  ],
+  configureWebpack: {
+    devServer: {
+      watchOptions: {
+        poll: true
+      }
+    }
+  }
 }
