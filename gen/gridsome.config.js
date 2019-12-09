@@ -5,7 +5,15 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'ful-stack',
+  templates: {
+    Blogpost: [
+      {
+        path: '/blog/:title',
+        component: './src/templates/Blogpost.vue'
+      }
+    ]
+  },
   plugins: [
     {
       use: 'gridsome-source-strapi',
