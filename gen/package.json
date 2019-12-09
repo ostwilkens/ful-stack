@@ -11,7 +11,7 @@
     "gridsome-source-strapi": "^0.1.3"
   },
   "devDependencies": {
-    "gridsome-plugin-tailwind": "0.0.2",
+    "gridsome-plugin-tailwindcss": "^2.2.27",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0"
   }

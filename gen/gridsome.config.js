@@ -16,9 +16,15 @@ module.exports = {
       }
     },
     {
-      use: 'gridsome-plugin-tailwind',
+      use: 'gridsome-plugin-tailwindcss',
       options: {
-        config: './tailwind.config.js'
+        tailwindConfig: './tailwind.config.js',
+        purgeConfig: {},
+        presetEnvConfig: {},
+        shouldPurge: false,
+        shouldImport: true,
+        shouldTimeTravel: true,
+        shouldPurgeUnusedKeyframes: true,
       }
     }
   ],
