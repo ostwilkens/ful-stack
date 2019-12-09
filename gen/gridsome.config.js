@@ -14,6 +14,12 @@ module.exports = {
         contentTypes: ['blogpost'],
         plural: true,
       }
+    },
+    {
+      use: 'gridsome-plugin-tailwind',
+      options: {
+        config: './tailwind.config.js'
+      }
     }
   ],
   configureWebpack: {
