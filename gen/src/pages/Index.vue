@@ -10,7 +10,7 @@
     <p class="home-links">
       <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
       <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-      <a href="/blog">Blog</a>
+      <a href="/blog" class="text-primary">Blog</a>
     </p>
   </Layout>
 </template>
@@ -18,7 +18,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Hello, world!"
+    title: "ful-stack"
   }
 };
 </script>

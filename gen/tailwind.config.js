@@ -1,14 +1,20 @@
 module.exports = {
     theme: {
-        colors: {
-            primary: '#F00',
-            secondary: '#00F',
-        },
-        fontFamily: {
-            display: ['Gilroy', 'sans-serif'],
-            body: ['Graphik', 'sans-serif'],
-        },
-        backgroundColor: '#133713',
+        // backgroundColor: theme => ({
+        //     ...theme('colors'),
+        //     'primary': '#3490dc',
+        //     'secondary': '#ffed4a',
+        //     'danger': '#e3342f',
+        // }),
+        // fontFamily: {
+        //     display: ['Gilroy', 'sans-serif'],
+        //     body: ['Graphik', 'sans-serif'],
+        // }
+        extend: {
+            colors: {
+                primary: '#9cdbff',
+            }
+        }
     },
     variants: {},
     plugins: [],
