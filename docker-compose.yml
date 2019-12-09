@@ -13,7 +13,7 @@ services:
             - /srv/app/.cache/
         command: bash -c "yarn && strapi develop"
         environment:
-            VIRTUAL_HOST: fulstack-api.dev.kodkvarnen.se
+            VIRTUAL_HOST: ful-api.dev.kodkvarnen.se
     gen:
         image: ostwilkens/gridsome:latest
         network_mode: bridge
@@ -27,4 +27,4 @@ services:
             - /srv/app/node_modules/
         command: bash -c "yarn && gridsome develop"
         environment:
-            VIRTUAL_HOST: fulstack-gen.dev.kodkvarnen.se
+            VIRTUAL_HOST: ful-gen.dev.kodkvarnen.se
