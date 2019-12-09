@@ -15,7 +15,6 @@ module.exports = {
       options: {
         apiURL: 'http://api:1337',
         contentTypes: ['blogpost'],
-        // plural: true,
       }
     },
     {

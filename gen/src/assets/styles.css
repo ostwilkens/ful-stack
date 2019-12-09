@@ -7,3 +7,7 @@ h2 {
 h3 {
   @apply text-lg;
 }
+body {
+  @apply bg-purple-900;
+  @apply text-green-100;
+}
