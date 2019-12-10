@@ -6,6 +6,8 @@
 
 module.exports = {
   siteName: 'ful-stack',
+  siteUrl: 'https://ostwilkens.github.io',
+  pathPrefix: '/ful-stack',
   // templates: {
   //   Blogpost: '/blog/:title'
   // },

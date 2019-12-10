@@ -4,10 +4,13 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "predeploy": "yarn && yarn run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@gridsome/source-strapi": "^0.1.0",
+    "gh-pages": "^2.1.1",
     "gridsome": "git://github.com/ostwilkens/gridsome.git#gridsome-v0.7.11-gitpkg",
     "vue-infinite-loading": "^2.4.4"
   },
