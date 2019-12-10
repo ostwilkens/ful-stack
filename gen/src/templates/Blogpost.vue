@@ -9,6 +9,7 @@
 query ($id: ID!) {
     blogpost(id: $id) {
         title
+        image
         content
     }
 }
