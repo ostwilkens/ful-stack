@@ -41,7 +41,7 @@ query {
 
 <style scoped>
 .phone {
-  background: url("/img/noise.png"),
+  background: url(~@/assets/img/noise.png),
     linear-gradient(
       210deg,
       rgba(34, 36, 33, 0.8) 0,
@@ -78,7 +78,7 @@ header {
   }
 }
 .nav-card-green {
-  background: url("/img/noise-weakest.png"),
+  background: url(~@/assets/img/noise-weakest.png),
     linear-gradient(
       178deg,
       transparent 30%,
@@ -88,7 +88,7 @@ header {
     #38a169;
 }
 .nav-card-pink {
-  background: url("/img/noise-weakest.png"),
+  background: url(~@/assets/img/noise-weakest.png),
     linear-gradient(
       185deg,
       transparent 30%,
@@ -99,7 +99,7 @@ header {
   color: #691d52;
 }
 .nav-card-teal {
-  background: url("/img/noise-weakest.png"),
+  background: url(~@/assets/img/noise-weakest.png),
     linear-gradient(
       175deg,
       transparent 30%,
@@ -109,7 +109,7 @@ header {
     #319795;
 }
 .nav-card-yellow {
-  background: url("/img/noise-weakest.png"),
+  background: url(~@/assets/img/noise-weakest.png),
     linear-gradient(
       185deg,
       transparent 30%,
